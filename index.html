@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShreeChetan Janseva Foundation - Empowering Communities, Transforming Lives</title>
+    <meta name="description" content="ShreeChetan Janseva Foundation is dedicated to empowering communities through education, healthcare, and sustainable development programs.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="assets/images/logo.svg" alt="ShreeChetan Janseva Foundation Logo" class="nav__logo-img">
+                <span class="nav__logo-text">ShreeChetan Janseva Foundation</span>
+            </div>
+            
+            <!-- Mobile menu toggle -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </button>
+            
+            <!-- Navigation menu -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#impact" class="nav__link">Impact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#news" class="nav__link">News</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#gallery" class="nav__link">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#volunteer" class="nav__link">Volunteer</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <button class="btn btn--primary" id="donate-btn">Donate</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Empowering Communities, Transforming Lives</h1>
+                    <p class="hero__description">
+                        Join us in creating lasting change through education, healthcare, and community development initiatives that build stronger, more resilient communities across India.
+                    </p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary btn--large" id="hero-donate-btn">Donate Now</button>
+                        <a href="#volunteer" class="btn btn--secondary btn--large">Volunteer With Us</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f3f4f6'/%3E%3Cg fill='%232563eb' opacity='0.1'%3E%3Ccircle cx='150' cy='100' r='50'/%3E%3Ccircle cx='450' cy='300' r='30'/%3E%3Ccircle cx='500' cy='100' r='40'/%3E%3C/g%3E%3Ctext x='300' y='180' text-anchor='middle' fill='%236b7280' font-size='24' font-family='Arial'%3ECommunity Impact%3C/text%3E%3Ctext x='300' y='220' text-anchor='middle' fill='%236b7280' font-size='16' font-family='Arial'%3EEmpowering Lives Together%3C/text%3E%3C/svg%3E" alt="Community members working together" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Our Foundation</h2>
+                    <p class="section__subtitle">Building bridges to a better tomorrow</p>
+                </div>
+                
+                <div class="about__grid">
+                    <div class="about__card">
+                        <div class="about__icon">
+                            <!-- Mission Icon SVG -->
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 21L9.09 15.26L16 14.5L9.09 13.74L8 8L6.91 13.74L0 14.5L6.91 15.26L8 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">Our Mission</h3>
+                        <p class="about__card-text">
+                            To empower underprivileged communities through comprehensive programs in education, healthcare, and sustainable development, creating pathways to self-reliance and prosperity.
+                        </p>
+                    </div>
+                    
+                    <div class="about__card">
+                        <div class="about__icon">
+                            <!-- Vision Icon SVG -->
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">Our Vision</h3>
+                        <p class="about__card-text">
+                            A world where every individual has access to quality education, healthcare, and opportunities for growth, regardless of their economic background or geographical location.
+                        </p>
+                    </div>
+                    
+                    <div class="about__card">
+                        <div class="about__icon">
+                            <!-- Values Icon SVG -->
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">Our Values</h3>
+                        <p class="about__card-text">
+                            Compassion, integrity, transparency, and community-driven solutions guide everything we do. We believe in sustainable change through collaborative efforts and local empowerment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Programs</h2>
+                    <p class="section__subtitle">Comprehensive solutions for community development</p>
+                </div>
+                
+                <div class="services__grid">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Education Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Education</h3>
+                        <p class="service__description">
+                            Providing quality education to underprivileged children through schools, scholarship programs, and digital learning initiatives.
+                        </p>
+                    </div>
+                    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Healthcare Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Healthcare</h3>
+                        <p class="service__description">
+                            Mobile clinics, health camps, and medical assistance programs ensuring accessible healthcare for rural and urban communities.
+                        </p>
+                    </div>
+                    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Community Development Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Community Development</h3>
+                        <p class="service__description">
+                            Infrastructure development, water sanitation projects, and programs that strengthen community bonds and self-reliance.
+                        </p>
+                    </div>
+                    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Environmental Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22c-1.5 0-3-0.8-4-2.2C6 17.5 4 14.9 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8c0 2.9-2 5.5-4 7.8C15 21.2 13.5 22 12 22z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 16c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Environmental Sustainability</h3>
+                        <p class="service__description">
+                            Tree plantation drives, renewable energy projects, and environmental awareness programs for a greener future.
+                        </p>
+                    </div>
+                    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Disaster Relief Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 9v3M12 16h.01M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Disaster Relief</h3>
+                        <p class="service__description">
+                            Emergency response teams, relief supplies, and rehabilitation programs for communities affected by natural disasters.
+                        </p>
+                    </div>
+                    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <!-- Skill Development Icon -->
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service__title">Skill Development</h3>
+                        <p class="service__description">
+                            Vocational training programs, entrepreneurship support, and job placement assistance for economic empowerment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section class="impact section" id="impact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Impact</h2>
+                    <p class="section__subtitle">Making a difference, one life at a time</p>
+                </div>
+                
+                <div class="impact__grid">
+                    <div class="impact__card">
+                        <div class="impact__number" data-target="5000">0</div>
+                        <h3 class="impact__label">Children Educated</h3>
+                        <p class="impact__description">Providing quality education to children across rural and urban areas</p>
+                    </div>
+                    
+                    <div class="impact__card">
+                        <div class="impact__number" data-target="2000">0</div>
+                        <h3 class="impact__label">Patients Treated</h3>
+                        <p class="impact__description">Healthcare services delivered through mobile clinics and health camps</p>
+                    </div>
+                    
+                    <div class="impact__card">
+                        <div class="impact__number" data-target="500">0</div>
+                        <h3 class="impact__label">Volunteers Involved</h3>
+                        <p class="impact__description">Dedicated volunteers contributing to our mission across various programs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news section" id="news">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Recent News & Updates</h2>
+                    <p class="section__subtitle">Stay updated with our latest initiatives</p>
+                </div>
+                
+                <div class="news__grid">
+                    <article class="news__card">
+                        <div class="news__image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23059669'/%3E%3Cg fill='white' opacity='0.2'%3E%3Crect x='50' y='50' width='80' height='60' rx='5'/%3E%3Crect x='150' y='70' width='60' height='40' rx='5'/%3E%3Crect x='230' y='60' width='70' height='50' rx='5'/%3E%3C/g%3E%3Ctext x='200' y='90' text-anchor='middle' fill='white' font-size='16' font-family='Arial'%3EEducation%3C/text%3E%3Ctext x='200' y='110' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EProgram Launch%3C/text%3E%3C/svg%3E" alt="Education program launch" class="news__img">
+                        </div>
+                        <div class="news__content">
+                            <time class="news__date">October 26, 2024</time>
+                            <h3 class="news__title">Foundation Launches New Education Program in Rural Areas</h3>
+                            <p class="news__description">
+                                Our latest initiative brings digital learning resources and qualified teachers to remote villages, impacting over 1,000 children in the first phase.
+                            </p>
+                            <a href="#" class="news__link">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="news__card">
+                        <div class="news__image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23dc2626'/%3E%3Cg fill='white' opacity='0.3'%3E%3Ccircle cx='200' cy='100' r='40'/%3E%3Cpath d='M180 100h40M200 80v40' stroke='white' stroke-width='4'/%3E%3C/g%3E%3Ctext x='200' y='90' text-anchor='middle' fill='white' font-size='16' font-family='Arial'%3EHealthcare%3C/text%3E%3Ctext x='200' y='110' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3ECamp Success%3C/text%3E%3C/svg%3E" alt="Healthcare camp" class="news__img">
+                        </div>
+                        <div class="news__content">
+                            <time class="news__date">October 15, 2024</time>
+                            <h3 class="news__title">Free Healthcare Camp Serves 500+ Patients</h3>
+                            <p class="news__description">
+                                Our monthly healthcare camp in partnership with local hospitals provided free medical check-ups and treatments to underserved communities.
+                            </p>
+                            <a href="#" class="news__link">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="news__card">
+                        <div class="news__image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23059669'/%3E%3Cg fill='white' opacity='0.3'%3E%3Cpath d='M150 150c0-20 10-30 25-35 15-5 25-15 25-35s-10-30-25-35c-15-5-25-15-25-35' stroke='white' stroke-width='8' fill='none'/%3E%3Cpath d='M250 150c0-20 10-30 25-35 15-5 25-15 25-35s-10-30-25-35c-15-5-25-15-25-35' stroke='white' stroke-width='8' fill='none'/%3E%3C/g%3E%3Ctext x='200' y='90' text-anchor='middle' fill='white' font-size='16' font-family='Arial'%3EEnvironment%3C/text%3E%3Ctext x='200' y='110' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3ETree Plantation%3C/text%3E%3C/svg%3E" alt="Environmental initiative" class="news__img">
+                        </div>
+                        <div class="news__content">
+                            <time class="news__date">October 5, 2024</time>
+                            <h3 class="news__title">Tree Plantation Drive Plants 10,000 Saplings</h3>
+                            <p class="news__description">
+                                Community volunteers joined us in our largest environmental initiative this year, contributing to climate action and environmental sustainability.
+                            </p>
+                            <a href="#" class="news__link">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">What People Say</h2>
+                    <p class="section__subtitle">Stories of transformation and hope</p>
+                </div>
+                
+                <div class="testimonials__container">
+                    <div class="testimonials__wrapper" id="testimonials-wrapper">
+                        <div class="testimonial__card active">
+                            <div class="testimonial__content">
+                                <p class="testimonial__text">
+                                    "The ShreeChetan Foundation changed my daughter's life. Through their scholarship program, she's now pursuing her engineering degree. I'm forever grateful for their support and belief in our children's potential."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%232563eb'/%3E%3Ccircle cx='30' cy='25' r='10' fill='white'/%3E%3Cpath d='M15 50c0-8 7-15 15-15s15 7 15 15' fill='white'/%3E%3C/svg%3E" alt="Rajesh Kumar" class="testimonial__img">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Rajesh Kumar</h4>
+                                        <span class="testimonial__role">Parent, Beneficiary</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial__card">
+                            <div class="testimonial__content">
+                                <p class="testimonial__text">
+                                    "Volunteering with ShreeChetan Foundation has been the most rewarding experience of my life. Seeing the impact we make in communities and the smiles on children's faces makes every effort worthwhile."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23059669'/%3E%3Ccircle cx='30' cy='25' r='10' fill='white'/%3E%3Cpath d='M15 50c0-8 7-15 15-15s15 7 15 15' fill='white'/%3E%3C/svg%3E" alt="Priya Sharma" class="testimonial__img">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Priya Sharma</h4>
+                                        <span class="testimonial__role">Volunteer Coordinator</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial__card">
+                            <div class="testimonial__content">
+                                <p class="testimonial__text">
+                                    "As a healthcare professional, I've witnessed firsthand the foundation's dedication to improving healthcare access. Their mobile clinics have been a lifeline for our rural community."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23dc2626'/%3E%3Ccircle cx='30' cy='25' r='10' fill='white'/%3E%3Cpath d='M15 50c0-8 7-15 15-15s15 7 15 15' fill='white'/%3E%3C/svg%3E" alt="Dr. Amit Patel" class="testimonial__img">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Dr. Amit Patel</h4>
+                                        <span class="testimonial__role">Medical Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial Navigation -->
+                    <div class="testimonials__nav">
+                        <button class="testimonials__prev" id="testimonials-prev" aria-label="Previous testimonial">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="testimonials__next" id="testimonials-next" aria-label="Next testimonial">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Testimonial Indicators -->
+                    <div class="testimonials__indicators">
+                        <button class="testimonials__dot active" data-slide="0"></button>
+                        <button class="testimonials__dot" data-slide="1"></button>
+                        <button class="testimonials__dot" data-slide="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Gallery</h2>
+                    <p class="section__subtitle">Moments of impact and community</p>
+                </div>
+                
+                <div class="gallery__grid">
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f3f4f6'/%3E%3Cg fill='%232563eb' opacity='0.2'%3E%3Crect x='50' y='50' width='80' height='60' rx='5'/%3E%3Crect x='150' y='70' width='60' height='40' rx='5'/%3E%3Crect x='230' y='60' width='70' height='50' rx='5'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='%236b7280' font-size='18' font-family='Arial'%3EChildren Learning%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='%236b7280' font-size='14' font-family='Arial'%3EEducation Program%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f3f4f6'/%3E%3Cg fill='%232563eb' opacity='0.2'%3E%3Crect x='50' y='50' width='80' height='60' rx='5'/%3E%3Crect x='150' y='70' width='60' height='40' rx='5'/%3E%3Crect x='230' y='60' width='70' height='50' rx='5'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='%236b7280' font-size='18' font-family='Arial'%3EChildren Learning%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='%236b7280' font-size='14' font-family='Arial'%3EEducation Program%3C/text%3E%3C/svg%3E" alt="Children in classroom" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23dc2626'/%3E%3Cg fill='white' opacity='0.3'%3E%3Ccircle cx='200' cy='150' r='60'/%3E%3Cpath d='M170 150h60M200 120v60' stroke='white' stroke-width='6'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3EHealthcare Camp%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EMedical Support%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23dc2626'/%3E%3Cg fill='white' opacity='0.3'%3E%3Ccircle cx='200' cy='150' r='60'/%3E%3Cpath d='M170 150h60M200 120v60' stroke='white' stroke-width='6'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3EHealthcare Camp%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EMedical Support%3C/text%3E%3C/svg%3E" alt="Healthcare camp" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23059669'/%3E%3Cg fill='white' opacity='0.3'%3E%3Crect x='100' y='100' width='200' height='100' rx='10'/%3E%3Crect x='130' y='130' width='20' height='40'/%3E%3Crect x='160' y='130' width='20' height='40'/%3E%3Crect x='190' y='130' width='20' height='40'/%3E%3Crect x='220' y='130' width='20' height='40'/%3E%3Crect x='250' y='130' width='20' height='40'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ECommunity Work%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EBuilding Together%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23059669'/%3E%3Cg fill='white' opacity='0.3'%3E%3Crect x='100' y='100' width='200' height='100' rx='10'/%3E%3Crect x='130' y='130' width='20' height='40'/%3E%3Crect x='160' y='130' width='20' height='40'/%3E%3Crect x='190' y='130' width='20' height='40'/%3E%3Crect x='220' y='130' width='20' height='40'/%3E%3Crect x='250' y='130' width='20' height='40'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ECommunity Work%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EBuilding Together%3C/text%3E%3C/svg%3E" alt="Community development" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23059669'/%3E%3Cg fill='white' opacity='0.4'%3E%3Cpath d='M120 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3Cpath d='M200 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3Cpath d='M280 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ETree Plantation%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EGreen Initiative%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23059669'/%3E%3Cg fill='white' opacity='0.4'%3E%3Cpath d='M120 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3Cpath d='M200 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3Cpath d='M280 200c0-30 15-45 38-53 23-8 38-23 38-53s-15-45-38-53c-23-8-38-23-38-53' stroke='white' stroke-width='8' fill='none'/%3E%3C/g%3E%3Ctext x='200' y='140' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ETree Plantation%3C/text%3E%3Ctext x='200' y='165' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EGreen Initiative%3C/text%3E%3C/svg%3E" alt="Tree plantation" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%232563eb'/%3E%3Cg fill='white' opacity='0.3'%3E%3Crect x='100' y='100' width='60' height='80' rx='5'/%3E%3Crect x='180' y='90' width='60' height='90' rx='5'/%3E%3Crect x='260' y='110' width='60' height='70' rx='5'/%3E%3Ctext x='130' y='140' text-anchor='middle' fill='%232563eb' font-size='12'%3EIT%3C/text%3E%3Ctext x='210' y='135' text-anchor='middle' fill='%232563eb' font-size='12'%3ESkills%3C/text%3E%3Ctext x='290' y='145' text-anchor='middle' fill='%232563eb' font-size='12'%3ETech%3C/text%3E%3C/g%3E%3Ctext x='200' y='220' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ESkill Training%3C/text%3E%3Ctext x='200' y='245' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EEmpowerment Program%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%232563eb'/%3E%3Cg fill='white' opacity='0.3'%3E%3Crect x='100' y='100' width='60' height='80' rx='5'/%3E%3Crect x='180' y='90' width='60' height='90' rx='5'/%3E%3Crect x='260' y='110' width='60' height='70' rx='5'/%3E%3Ctext x='130' y='140' text-anchor='middle' fill='%232563eb' font-size='12'%3EIT%3C/text%3E%3Ctext x='210' y='135' text-anchor='middle' fill='%232563eb' font-size='12'%3ESkills%3C/text%3E%3Ctext x='290' y='145' text-anchor='middle' fill='%232563eb' font-size='12'%3ETech%3C/text%3E%3C/g%3E%3Ctext x='200' y='220' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3ESkill Training%3C/text%3E%3Ctext x='200' y='245' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3EEmpowerment Program%3C/text%3E%3C/svg%3E" alt="Skill development training" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery__item" data-image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f59e0b'/%3E%3Cg fill='white' opacity='0.3'%3E%3Ccircle cx='150' cy='120' r='25'/%3E%3Ccircle cx='250' cy='120' r='25'/%3E%3Ccircle cx='200' cy='180' r='25'/%3E%3Cpath d='M150 120l50 60M250 120l-50 60' stroke='white' stroke-width='4'/%3E%3C/g%3E%3Ctext x='200' y='220' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3EVolunteers%3C/text%3E%3Ctext x='200' y='245' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3ECommunity Heroes%3C/text%3E%3C/svg%3E">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f59e0b'/%3E%3Cg fill='white' opacity='0.3'%3E%3Ccircle cx='150' cy='120' r='25'/%3E%3Ccircle cx='250' cy='120' r='25'/%3E%3Ccircle cx='200' cy='180' r='25'/%3E%3Cpath d='M150 120l50 60M250 120l-50 60' stroke='white' stroke-width='4'/%3E%3C/g%3E%3Ctext x='200' y='220' text-anchor='middle' fill='white' font-size='18' font-family='Arial'%3EVolunteers%3C/text%3E%3Ctext x='200' y='245' text-anchor='middle' fill='white' font-size='14' font-family='Arial'%3ECommunity Heroes%3C/text%3E%3C/svg%3E" alt="Volunteers at work" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <button class="gallery__view-btn" aria-label="View larger image">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l4 4m0-4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Section -->
+        <section class="volunteer section" id="volunteer">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Join Our Mission</h2>
+                    <p class="section__subtitle">Become a volunteer and make a difference</p>
+                </div>
+                
+                <div class="volunteer__content">
+                    <div class="volunteer__info">
+                        <h3 class="volunteer__title">Why Volunteer With Us?</h3>
+                        <ul class="volunteer__benefits">
+                            <li>Make a direct impact on communities</li>
+                            <li>Gain valuable experience and skills</li>
+                            <li>Connect with like-minded individuals</li>
+                            <li>Flexible volunteering opportunities</li>
+                            <li>Certificate of appreciation</li>
+                        </ul>
+                    </div>
+                    
+                    <form class="volunteer__form" id="volunteer-form">
+                        <h3 class="form__title">Volunteer Registration</h3>
+                        
+                        <div class="form__group">
+                            <label for="volunteer-name" class="form__label">Full Name *</label>
+                            <input type="text" id="volunteer-name" name="name" class="form__input" required>
+                            <span class="form__error" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="volunteer-email" class="form__label">Email Address *</label>
+                            <input type="email" id="volunteer-email" name="email" class="form__input" required>
+                            <span class="form__error" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="volunteer-phone" class="form__label">Phone Number *</label>
+                            <input type="tel" id="volunteer-phone" name="phone" class="form__input" required>
+                            <span class="form__error" id="phone-error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="volunteer-interest" class="form__label">Area of Interest *</label>
+                            <select id="volunteer-interest" name="interest" class="form__select" required>
+                                <option value="">Select an area</option>
+                                <option value="education">Education</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="community-development">Community Development</option>
+                                <option value="environmental">Environmental Sustainability</option>
+                                <option value="disaster-relief">Disaster Relief</option>
+                                <option value="skill-development">Skill Development</option>
+                                <option value="general">General Support</option>
+                            </select>
+                            <span class="form__error" id="interest-error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="volunteer-message" class="form__label">Message (Optional)</label>
+                            <textarea id="volunteer-message" name="message" class="form__textarea" rows="4" placeholder="Tell us about your motivation and availability..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--large form__submit">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Get In Touch</h2>
+                    <p class="section__subtitle">We'd love to hear from you</p>
+                </div>
+                
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact__details">
+                                <h4 class="contact__title">Address</h4>
+                                <p class="contact__text">123 Harmony Street<br>Peaceful Valley, 45678<br>India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact__details">
+                                <h4 class="contact__title">Phone</h4>
+                                <p class="contact__text">+91-987-654-3210</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact__details">
+                                <h4 class="contact__title">Email</h4>
+                                <p class="contact__text">info@shreechetanfoundation.org</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__map">
+                        <!-- Placeholder for map - in production, you would integrate Google Maps or similar -->
+                        <div class="map__placeholder">
+                            <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <p>Interactive Map Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <img src="assets/images/logo.svg" alt="ShreeChetan Janseva Foundation Logo" class="footer__logo-img">
+                        <span class="footer__logo-text">ShreeChetan Janseva Foundation</span>
+                    </div>
+                    <p class="footer__description">
+                        Empowering communities through education, healthcare, and sustainable development initiatives.
+                    </p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#about" class="footer__link">About Us</a></li>
+                        <li><a href="#services" class="footer__link">Our Programs</a></li>
+                        <li><a href="#impact" class="footer__link">Impact</a></li>
+                        <li><a href="#volunteer" class="footer__link">Volunteer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Programs</h4>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Education</a></li>
+                        <li><a href="#" class="footer__link">Healthcare</a></li>
+                        <li><a href="#" class="footer__link">Community Development</a></li>
+                        <li><a href="#" class="footer__link">Environmental</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Follow Us</h4>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2"/>
+                                <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 ShreeChetan Janseva Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Donation Modal -->
+    <div class="modal" id="donate-modal" role="dialog" aria-labelledby="donate-modal-title" aria-hidden="true">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2 class="modal__title" id="donate-modal-title">Make a Donation</h2>
+                <button class="modal__close" id="donate-modal-close" aria-label="Close donation modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+                        <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="modal__body">
+                <form class="donate__form" id="donate-form">
+                    <div class="form__group">
+                        <label class="form__label">Donation Type</label>
+                        <div class="radio__group">
+                            <label class="radio__label">
+                                <input type="radio" name="donation-type" value="one-time" class="radio__input" checked>
+                                <span class="radio__custom"></span>
+                                One-time Donation
+                            </label>
+                            <label class="radio__label">
+                                <input type="radio" name="donation-type" value="monthly" class="radio__input">
+                                <span class="radio__custom"></span>
+                                Monthly Donation
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form__group">
+                        <label class="form__label">Select Amount</label>
+                        <div class="amount__grid">
+                            <button type="button" class="amount__btn" data-amount="500">₹500</button>
+                            <button type="button" class="amount__btn" data-amount="1000">₹1,000</button>
+                            <button type="button" class="amount__btn" data-amount="2500">₹2,500</button>
+                            <button type="button" class="amount__btn" data-amount="5000">₹5,000</button>
+                            <button type="button" class="amount__btn" data-amount="10000">₹10,000</button>
+                            <button type="button" class="amount__btn" data-amount="custom">Custom</button>
+                        </div>
+                    </div>
+                    
+                    <div class="form__group" id="custom-amount-group" style="display: none;">
+                        <label for="custom-amount" class="form__label">Custom Amount (₹)</label>
+                        <input type="number" id="custom-amount" name="custom-amount" class="form__input" min="1" placeholder="Enter amount">
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="donor-name" class="form__label">Full Name *</label>
+                        <input type="text" id="donor-name" name="donor-name" class="form__input" required>
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="donor-email" class="form__label">Email Address *</label>
+                        <input type="email" id="donor-email" name="donor-email" class="form__input" required>
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="donor-phone" class="form__label">Phone Number</label>
+                        <input type="tel" id="donor-phone" name="donor-phone" class="form__input">
+                    </div>
+                    
+                    <div class="donate__summary">
+                        <div class="summary__item">
+                            <span>Donation Amount:</span>
+                            <span id="donation-amount-display">₹500</span>
+                        </div>
+                        <div class="summary__item">
+                            <span>Type:</span>
+                            <span id="donation-type-display">One-time</span>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--large">Proceed to Payment</button>
+                    
+                    <!-- Stripe Integration Note -->
+                    <p class="form__note">
+                        <strong>Note:</strong> This is a demo form. In production, integrate with Stripe or other payment processors for secure transactions.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Lightbox Modal -->
+    <div class="modal" id="gallery-modal" role="dialog" aria-labelledby="gallery-modal-title" aria-hidden="true">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content modal__content--gallery">
+            <button class="modal__close" id="gallery-modal-close" aria-label="Close gallery modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+            <img src="" alt="" class="gallery__modal-img" id="gallery-modal-img">
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal" role="dialog" aria-labelledby="success-modal-title" aria-hidden="true">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content modal__content--success">
+            <div class="success__icon">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polyline points="22,4 12,14.01 9,11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h2 class="success__title" id="success-modal-title">Thank You!</h2>
+            <p class="success__message" id="success-message">Your submission has been received successfully.</p>
+            <button class="btn btn--primary" id="success-modal-close">Close</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
